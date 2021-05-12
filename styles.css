@@ -1,0 +1,105 @@
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-style: Helvetica, sans-serif;
+  font-size: 45px;
+  color: black;
+  line-height: 1.4;
+  background-color: #F5F5F5;
+  margin: 40px;
+  height: 100%;
+  overflow: hidden;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+a.rosa link {
+  text-decoration: none;
+  color: gray;
+}
+
+a.rosa:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+a.project link {
+  text-decoration: underline;
+  color: black;
+}
+
+a.project:hover {
+  transition: 0.5s;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+a.project:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a#tour:hover, a.tour:active {color: pink;}
+
+
+/* .flower img {
+  z-index: 100;
+  filter: grayscale(1);
+}
+
+.flower img:hover {
+  transition: 2s;
+  filter: blur(0px) grayscale(0);
+} */
+
+a#extension:hover, a.extension:active {
+  filter: blur(10px)}
+
+.junyi{
+  font-style: oblique;
+  color:gray;
+  position: fixed;
+  top: 45%;
+  right: 30px;
+  font-size: 30px;
+   display: inline;
+}
+
+.rosa{
+  font-style: oblique;
+  color:gray;
+  text-decoration: underline;
+  position: fixed;
+  top: 45%;
+  right: 30px;
+  font-size: 30px;
+  display: none; 
+}
+
+
+/* a.rosa:hover, a.rosa:active {font-size: 0%;} */
+
+
+.junyi:hover { display: none; }
+/* div:hover .rosa { display: inline; } */
+
+.junyi:hover ~ .rosa {
+  display: inline;
+}
+
+.container {
+  position: relative;
+}
+
+#project{
+  color:gray;
+  font-size: 40px;
+}
+
+#exercise{
+  color:gray;
+  font-size: 40px;
+}

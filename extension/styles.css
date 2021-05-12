@@ -1,0 +1,18 @@
+
+#overlay {
+  top: -50vh;
+  left: -50vw;
+  /*   z-index: put element one the top layer */
+  z-index: 1000000; 
+  background-color: rgba(0,0,0,0);
+  backdrop-filter: blur(30px);
+  position: fixed;
+  width: 200vw;
+  height: 200vh;
+  -webkit-mask-image: radial-gradient(80px at 50% 50% , transparent 35%, black 100%);
+  pointer-events: none;
+}
+
+* {
+  cursor: none !important;
+}
